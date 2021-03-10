@@ -74,22 +74,22 @@ I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managi
 
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="🚀 Devloper 🚀", callback_data="@PythonProgramingIN"),
     ],
     [
         InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add LEGEND BOT to your group 💫",
-            url="t.me/grand50_bot?startgroup=true",
+            text="💫 Add Group Manager to your group 💫",
+            url="http://t.me/groupsmanagerprofessorbot?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+*Main Commands :* [Group Manager](https://telegra.ph/file/13a582651c5266691c886.png)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -361,9 +361,9 @@ def LEGEND_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @LEGENDX22.* "
-            f"\n\n 🔥 Join [GRAND OFFICIAL](https://t.me/teamishere) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [Our Group](https://t.me/TechUpdates14) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)"
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/13a582651c5266691c886.png)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
